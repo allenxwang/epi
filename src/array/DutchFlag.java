@@ -54,6 +54,7 @@ public class DutchFlag {
 
     @Test
     public void testRandom() {
+
         int[] array = ArrayUtils.getRandom(10, 5);
         int index = new Random().nextInt(10);
         System.out.println(ArrayUtils.getIntList(array));
